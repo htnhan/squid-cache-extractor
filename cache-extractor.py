@@ -14,7 +14,8 @@ from bs4 import BeautifulSoup as bs
 md5 = hashlib.md5()
 
 # set cache_dir from which to extract files
-cache_dir = "./data/squid3"
+# cache_dir = "./data/squid3"
+cache_dir = "/var/spool/squid"
 
 # set whitelist for http headers
 whitelist = ['Location','Content-Type','Content-Encoding','Content-Language','Expires','Date','Last-Modified','Vary','Mime-Version','Server','Content-Length','Keep-Alive','Cache-Control','Access-Control-Allow-Origin','ETag','P3P','Set-Cookie','Via','Aka-DNS-Name','Content-Security-Policy','Content-Security-Policy-Report-Only','X-Cache','X-Amz-Cf-Id','X-Served-By','X-Powered-By','X-CDN','X-Frame-Options','X-Content-Type-Options','X-Varnish','Strict-Transport-Security']
